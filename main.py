@@ -46,3 +46,5 @@ if __name__ == '__main__':
 
     with open(SAVE_PATH, 'w') as file:
         file.write(temp_str)
+
+    print("Finish!")
