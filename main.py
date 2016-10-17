@@ -42,6 +42,9 @@ def decode64(input_str):
 
 if __name__ == '__main__':
     raw_content = requests.get(GFWLIST_CONTENT_URL).text
+
+    print("raw text get success!")
+
     temp_str = decode64(raw_content)
 
     with open(SAVE_PATH, 'w') as file:
