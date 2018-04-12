@@ -7,7 +7,7 @@ import re
 
 GFWLIST_CONTENT_URL = 'https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt'
 KEY_STR = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/='
-SAVE_PATH = '/Users/yangruihan/.ShadowsocksX/user-rule.txt'
+SAVE_PATH = '/Users/yangruihan/.ShadowsocksX-NG/user-rule.txt'
 
 def decode64(input_str):
     """
